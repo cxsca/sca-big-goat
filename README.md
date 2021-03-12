@@ -19,7 +19,7 @@ Please make sure you do not make any harm.***
 
 # Scan Report
 
-### Direct pacakges (70)
+### Direct packages (70)
 Vulnerabilites | Quantity
 ---------------|---------------
 **High**| 164
