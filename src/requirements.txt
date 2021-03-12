@@ -29,4 +29,4 @@ feedparser==5.1.1
 mercurial==4.8.2
 buildbot==0.7.11
 notebook==5.7.10
-httplib2==0.12.0
+httplib2==0.19.0
