@@ -28,5 +28,5 @@ Flask==0.11.1
 feedparser==5.1.1
 mercurial==4.8.2
 buildbot==0.7.11
-notebook==5.7.10
+notebook==6.1.5
 httplib2==0.12.0
