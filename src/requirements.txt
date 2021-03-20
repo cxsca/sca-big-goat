@@ -23,7 +23,7 @@ Django==3.1
 Pillow==7.1.0
 pycrypto==2.4
 tensorflow==1.14.0
-Jinja2==2.7.2
+Jinja2==2.11.3
 Flask==0.11.1
 feedparser==5.1.1
 mercurial==4.8.2
