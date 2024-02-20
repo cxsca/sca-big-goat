@@ -1,17 +1,20 @@
 {
-	"title": [
-		{
-			"pattern": "^[A-Z][a-z]+?\\s",
-			"message": "Your title must start with a capital letter, and a real word, e.g. 'Add GO support'"
-		},
-		{
-			"pattern": "^\\S+\\s+\\S+\\s+\\S+",
-			"message": "Your title must have at least three words"
-		},
-		{
-			"pattern": "^(?!\\S+ing\\s)(?!\\S+ed\\s)",
-			"message": "Use imperative mood (i.e write \"Fix\", not \"Fixed\" or \"Fixing\")"
-		}
-	]
+        "title": [
+                {
+                        "pattern": "^[A-Z][a-z]+?\\s",
+                        "message": "Your title must start with a capital letter, and a real word, e.g. 'Add GO support'"
+                },
+                {
+                        "pattern": "\\(([A-Z]+-\\d+(,[A-Z]+-\\d+)*)\\)$",
+                        "message": "Your title must end with jira ticket number e.g. 'Add GO support (SCA-1234)'"
+                },
+                {
+                        "pattern": "^\\S+\\s+\\S+\\s+\\S+",
+                        "message": "Your title must have at least three words"
+                },
+                {
+                        "pattern": "^(?!\\S+ing\\s)(?!\\S+ed\\s)",
+                        "message": "Use imperative mood (e.g. \"Fix\" and not \"Fixed\" or \"Fixing\")"
+                }
+        ]
 }
-
